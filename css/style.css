@@ -1,0 +1,282 @@
+:root{
+    --blue:#2196F3;
+    --grey_text:#757575;
+    --shadow:0px 3px 5px -3px black;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+body{
+    font-family: "Roboto";
+    margin: 0px;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+header{
+    display: flex; 
+    align-items: center;
+    height: 80px;
+    }
+header .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 215px;
+}
+.logo .logo {color: var(--blue);}
+.navigation .links{
+    display: flex;
+    margin-left: 102px;
+}
+.navigation .links li{
+    margin-right: 45px;
+    font-weight: 500;
+}
+.navigation .links li:last-child {
+    margin-right: 0;
+}
+.navigation .links li :hover {
+    color: var(--blue_logo_color);
+}
+header nav ul li:hover{
+    color: var(--blue);
+}
+.contacts_info {
+    display: flex;
+    margin-left: 309px;
+}
+.contacts_info li a{
+    margin-right: 30px;
+    font-weight: 500;
+    color: var(--grey_text);
+    fill: var(--grey_text)
+}
+.contacts_info li a:hover{
+    color: var(--blue);
+    fill: var(--blue);
+}
+.order {
+    background-color: #2F303A;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.order h1{
+    color: #ffff;
+    font-size: 44px;
+    font-weight:900;
+    width: 1048px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.order button {
+    background-color:var(--blue);
+    color: #ffff;
+    font-size: 16px;
+    font-weight:700;
+    cursor:pointer;
+    border: 0;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
+.advantages{
+    margin-top: 44px;
+}
+ .advantages ul {
+    display: flex;
+    margin-left: 215px;
+ }
+ .advantages ul li{
+    margin-right: 30px;
+ }
+  .advantages ul li:last-child {
+      margin-right: 0;
+  }
+.advantages ul li .icon{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages ul li h3 {
+    font-weight: 700;
+}
+.advantages ul li p {
+    color: var(--grey_text);
+    width: 270px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.work ul{
+    display: flex;
+}
+.work ul li{
+    margin-left: 29px;
+}
+.work ul li img{border-radius: 10px;}
+.team{
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.team h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.team .workers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team .workers .worker{
+    background-color: #FFFFFF;
+    box-shadow: var(--shadow);
+    width: 270px;
+    border-radius: 0 0 4px 4px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.team .workers .worker .name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.team .workers .worker .role {
+    font-size: 16px;
+    color: var(--grey_text);
+}
+.team .workers .worker a {
+    fill: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+.team .workers .worker ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.team .workers .worker ul li{
+    margin-right: 10px;
+}
+.team .workers .worker a:hover {
+    background-color: var(--blue);
+    fill: white;
+    border-radius: 100%;
+}
+footer {
+    background-color: #2F303A;
+    display: flex;
+    width: 1600px;
+    height: 252px;
+    align-items: center;
+}
+footer .info {
+    margin-left: 215px;
+}
+footer .logo {
+    color : #FFFFFF;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+footer address{
+    color: #FFFFFF; 
+    font-style: normal;
+}
+footer address ul li a{color: var(--grey_text);}
+footer .mailing_list{
+    margin-left: 93px;
+    display: flex;
+    flex-direction: column;
+}
+footer h2 {
+    color: #FFFFFF;  
+    font-weight: 700;
+}
+footer .soc_media{
+    margin-left: 43px;
+}
+footer .social{
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social li {
+    margin-right: 10px;
+}
+footer .social li a {
+    fill: #FFFFFF;
+    height: 44px; 
+    width: 44px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 100%;
+}
+footer .social li a:hover { background-color: var(--blue);}
+footer form {
+    display: flex;
+}
+footer form label{
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+footer form label input{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 30%);
+    border-width: 1px; 
+    border-radius: 4px;
+    border-style: solid;
+    width: 358px;
+    height: 50px;
+}
+
+footer form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    cursor: pointer;  
+    color: #FFFFFF; 
+    fill: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    margin-left: 13px;
+}
+footer form button .image{
+    margin-left: 13px;
+}
